@@ -1,0 +1,15 @@
+@"
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db
+"@ | Set-Content -Encoding utf8 .gitignore
